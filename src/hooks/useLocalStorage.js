@@ -8,7 +8,6 @@ function useLocalStorage(key, initialValue) {
     const jsonValue = localStorage.getItem(prefixedKey);
 
     if (jsonValue != null) {
-      console.log(jsonValue);
       return JSON.parse(jsonValue);
     }
 
