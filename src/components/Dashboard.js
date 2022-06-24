@@ -1,5 +1,5 @@
 import React from 'react';
-import { useConversations } from '../contexts/ConversationContext';
+import { useConversations } from '../contexts/ConversationProvider';
 import OpenConversation from './OpenConversation';
 import Sidebar from './Sidebar';
 
